@@ -1,0 +1,38 @@
+Deskripsi Progam
+
+"Optik & Pusat Kesehatan Mata"
+1. Ringkasan Proyek
+
+Program "Optik & Pusat Kesehatan Mata adalah aplikasi berbasis konsol (command-line) interaktif sederhana yang dibangun menggunakan bahasa pemrograman Java. Proyek ini dirancang khusus untuk mensimulasikan sistem manajemen layanan kesehatan mata tingkat dasar di sebuah klinik. Target utamanya adalah membantu pengguna—khususnya mahasiswa atau pekerja yang memiliki intensitas tinggi di depan layar gawai—untuk melakukan evaluasi mandiri terhadap kesehatan mata mereka berdasarkan durasi paparan layar (*screen time), keluhan fisik yang dirasakan, serta jarak pandang ergonomis saat menggunakan perangkat elektronik.
+
+2. Fitur Utama Program
+Sistem Autentikasi Pengguna (Registrasi & Login):
+Sebelum mengakses layanan, program mewajibkan pengguna untuk melakukan registrasi akun baru (membuat username dan password) kemudian melakukan proses login. Keberhasilan login divalidasi menggunakan operator logika dan operator ternary untuk menentukan status akses.
+
+ Pengisian Data Profil Pasien:
+Pengguna diminta memasukkan data identitas dasar seperti Nama Lengkap dan Umur untuk personalisasi hasil pemeriksaan.
+
+Menu Utama Layanan Interaktif:
+ Menggunakan struktur percabangan switch-case, program menyediakan tiga menu utama: 
+1.Periksa Kesehatan Mata
+yang memungkinkan pengguna melakukan skrining mandiri dengan memasukkan data berupa durasi screen time, keluhan mata kering atau perih, serta jarak pandang ke layar, di mana sistem akan memproses data tersebut untuk menghasilkan analisis status mata, catatan saran jarak, serta sisa skor kesehatan dari total 100 poin.
+
+2.Tips Kesehatan Mata
+yaitu, menu edukasi yang menyajikan berbagai panduan praktis seperti penerapan aturan 20-20-20 dan anjuran menjaga jarak aman saat menggunakan perangkat digital.
+
+3.Keluar Program
+fitur Keluar yang berfungsi untuk menghentikan aplikasi secara aman sekaligus menampilkan salam perpisahan otomatis dari layanan klinik.
+
+
+3. Penerapan Konsep Pemrograman Java dalam Program
+Program ini mengimplementasikan berbagai konsep dasar sederhana pemrograman Java, antara lain:
+Konstanta (final): Digunakan untuk mendeklarasikan nama klinik (NAMA_KLINIK) agar nilainya tetap dan tidak dapat diubah selama program berjalan.
+
+Variabel & Tipe Data: Menggunakan beragam tipe data seperti String, int, double, float, char, dan boolean.
+
+Operator Logika & Pembanding: Menggunakan operator (&&, ||, <, >, ==) untuk mencocokkan kredensial login dan mengevaluasi status kesehatan mata.
+
+Operator Ternary (? :): Digunakan secara efektif untuk menentukan status akses login dan menyusun pesan saran jarak layar secara ringkas.
+Percabangan (Branching): Menggabungkan struktur if-else majemuk dan switch-case untuk mengatur alur navigasi menu serta pengambilan keputusan berdasarkan input pengguna.
+
+Manajemen Input/Output: Memanfaatkan kelas Scanner untuk menerima masukan data dari terminal secara interaktif.
